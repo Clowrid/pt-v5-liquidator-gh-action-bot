@@ -1,7 +1,7 @@
 name: CronJob - Liquidator Bot - Gnosis
 on:
   schedule:
-    - cron: "50 * * * *" # ie. 4:50pm, 5:50pm ... etc.
+    - cron: "*/5 * * * *" # ie. 4:50pm, 5:50pm ... etc.
   push:
 env:
   CHAIN_ID: 100
